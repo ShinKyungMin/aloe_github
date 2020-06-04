@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery.js"></script>
+    <!-- 적용방법 2 : cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- 적용방법 3 -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <title >ShinKyungMin</title>
+    <link rel="shortcut icon" href="s_icon.ico">
+    <link rel="icon" href="icon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="tag.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <script>
+        $(window).load(function(){
+            $('.container').delay('2000').fadeOut();
+            $('.main').hide();
+        })
+
+        setTimeout(function() {
+            $('.main').show();
+        }, 2500);
+
+     </script>
+  </head>
+  <body>
+    <div class='box'>
+  <div class='wave -one'></div>
+  <div class='wave -two'></div>
+  <div class='wave -three'></div>
+</div>
+        <div class="container">
+        <svg class="loader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 340"> </svg>
+          <div class="box">
+       			<div class="clock"></div>
+       		</div>
+
+        <div class="first"> </div>
+
+    </div>
+        <div style="font-family: 'Ubuntu Condensed', sans-serif;" class="main">
+            <div class="name">
+                <h1>Shin Kyung Min </h1>
+                <p><b>신 경 민</b></p>
+             <div class="button">
+              <button type="button" onclick="window.open('https://www.notion.so/shinkyongmin/44be4db4b7f9437da67a8d6bf69bd5e6')">Notion</button>
+              <button type="button" onclick="location.href='https://github.com/ShinKyongMin' ">Github</button>
+             </div>
+             <h6>hello.ShinKyungMin.kr/</h6>
+          </div>
+        </div>
+  </body>
+</html>
